@@ -12,12 +12,12 @@ TechnicalBackground
 
 = TODO =
 
-* Get LCD working
+  * Get LCD working
 
-* Set up styx server on the arm7 to serve those devices, start with touchpad support(inferno 
+  * Set up styx server on the arm7 to serve those devices, start with touchpad support(inferno 
 
-* kernel instead?, display on shared memory? this sounds obnoxious and painful.)
+  * kernel instead?, display on shared memory? this sounds obnoxious and painful.)
 
-* get wifi working
+  * get wifi working
 
-* get sound and microphone working(this is last, if I get everything else working by the due date I'll do this).
+  * get sound and microphone working(this is last, if I get everything else working by the due date I'll do this).
