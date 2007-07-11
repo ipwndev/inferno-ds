@@ -23,4 +23,6 @@ Reference framebuffer implementation:
 
 http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
 
+Graphics reference:
 
+http://www.tobw.net/dswiki/index.php?title=Graphic_modes
