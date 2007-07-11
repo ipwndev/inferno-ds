@@ -9,5 +9,18 @@ This is a list of pages that contain background information regarding the DS Har
 
 = Details =
 
+Basic register descriptions:
+
 http://neimod.com/dstek/
+
 http://www.bottledlight.com/ds/
+
+Tutorial:
+
+http://www.dspassme.com/programmers_guide/tutorial/
+
+Reference framebuffer implementation:
+
+http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
+
+
