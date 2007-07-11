@@ -26,3 +26,4 @@ http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
 Graphics reference:
 
 http://www.tobw.net/dswiki/index.php?title=Graphic_modes
+http://www.dev-scene.com/NDS/Tutorials_Day_2#Graphics_Overview
