@@ -19,7 +19,7 @@ http://dualis.1emu.net/dsti.html
 
 http://nocash.emubase.de/gbatek.htm
 
-Hardware based Tutorials:
+*Hardware based Tutorials:* _(with useful hw programming details)_ 
 
 http://www.double.co.nz/nintendo_ds/
 
