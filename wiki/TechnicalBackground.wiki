@@ -21,6 +21,8 @@ http://nocash.emubase.de/gbatek.htm
 
 *Hardware based Tutorials:* _(with useful hw programming details)_ 
 
+http://nocash.emubase.de/gbatek.txt
+
 http://www.double.co.nz/nintendo_ds/
 
 Tutorial:
