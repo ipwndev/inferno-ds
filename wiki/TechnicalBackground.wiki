@@ -5,39 +5,35 @@
 
 This is a list of pages that contain background information regarding the DS Hardware
 
-
-
 = Details =
 
 Basic register descriptions:
 
-http://neimod.com/dstek/
+  * http://nocash.emubase.de/gbatek.txt _(*a must read, don't skip it!*)_
 
-http://www.bottledlight.com/ds/
+  * http://nocash.emubase.de/gbatek.htm
 
-http://dualis.1emu.net/dsti.html
+  * http://neimod.com/dstek/
 
-http://nocash.emubase.de/gbatek.htm
+  * http://www.bottledlight.com/ds/
 
-*Hardware based Tutorials:* _(with useful hw programming details)_ 
-
-http://nocash.emubase.de/gbatek.txt
-
-http://www.double.co.nz/nintendo_ds/
+  * http://dualis.1emu.net/dsti.html
 
 Tutorial:
 
-http://www.dspassme.com/programmers_guide/tutorial/
+  * http://www.double.co.nz/nintendo_ds/ _(with useful hw programming details)_ 
+
+  * http://www.dspassme.com/programmers_guide/tutorial/
 
 Reference framebuffer implementation:
 
-http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
+  * http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
 
 Graphics reference:
 
-http://www.tobw.net/dswiki/index.php?title=Graphic_modes
-http://www.dev-scene.com/NDS/Tutorials_Day_2#Graphics_Overview
+  * http://www.tobw.net/dswiki/index.php?title=Graphic_modes
+  * http://www.dev-scene.com/NDS/Tutorials_Day_2#Graphics_Overview
 
 Wifi
 
-http://akkit.org/info/dswifi.htm
+  * http://akkit.org/info/dswifi.htm
