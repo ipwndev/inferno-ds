@@ -6,6 +6,9 @@
 This is a list of pages that contain background information regarding the DS Hardware
 
 = Details =
+Arm instruction set cheat sheet
+
+  * http://re-eject.gbadev.org/files/armref.pdf
 
 Basic register descriptions:
 
