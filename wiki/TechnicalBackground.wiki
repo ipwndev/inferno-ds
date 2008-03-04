@@ -40,3 +40,4 @@ Graphics reference:
 Wifi
 
   * http://akkit.org/info/dswifi.htm
+  * [http://www.gamefaqs.com/portable/ds/file/925329/40161 Nintendo DS Wireless Networking Guide]
