@@ -41,3 +41,6 @@ Wifi
 
   * http://akkit.org/info/dswifi.htm
   * [http://www.gamefaqs.com/portable/ds/file/925329/40161 Nintendo DS Wireless Networking Guide] _(*worth read, also!*)_
+  * [http://www.google.es/search?q=WiFiMe+RT2570+usb WiFiMe RT2570 usb]
+    # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
+    # http://masscat.afraid.org/ninds/wifi_apps.php
