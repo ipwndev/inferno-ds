@@ -56,7 +56,22 @@ this means: "reduce the code/build/burn/test time", things that can help here ar
 	but probably for dswifi (say ethernifi.c) a mechanism for fifo based communication
 	would be needed, so probably this could pop up to be on the top of the TODO list.
 
-(...)
+= REFS = 
+_(list some additional resources)_
+
+  inferno-os related:
+  * http://code.google.com/p/inferno-os  *inferno-os*
+
+  inferno-ds related:
+  * http://code.google.com/p/inferno-ds  *project*
+  * http://code.google.com/p/inferno-ds/w/list  *wiki*
+  * http://groups.google.com/group/inferno-ds/  *group list*
+
+  gsoc related:
+  * http://groups.google.com/group/plan9-gsoc   *plan9-gsoc list*
+  * http://plan9.bell-labs.com/wiki/plan9/GSoC2008   *plan9-gsoc wiki*
+
+(to be continued ...)
 
 {{{[1]}}}
 	so before asking
@@ -78,21 +93,6 @@ this means: "reduce the code/build/burn/test time", things that can help here ar
 	thankfully Noah had a lot of things working,
 	the most important/used it's been the lcd to debug with print statements.
 
-
-= REFS = 
-_(list some additional resources)_
-
-  inferno-os related:
-  * http://code.google.com/p/inferno-os  *inferno-os*
-
-  inferno-ds related:
-  * http://code.google.com/p/inferno-ds  *project*
-  * http://code.google.com/p/inferno-ds/w/list  *wiki*
-  * http://groups.google.com/group/inferno-ds/  *group list*
-
-  gsoc related:
-  * http://groups.google.com/group/plan9-gsoc   *plan9-gsoc list*
-  * http://plan9.bell-labs.com/wiki/plan9/GSoC2008   *plan9-gsoc wiki*
 
 --
 salva
