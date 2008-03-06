@@ -70,10 +70,18 @@ this means: "reduce the code/build/burn/test time", things that can help here ar
 	in the hope that the ones coming after, could follow the tracks easily, so the wiki should help to answer those questions.
 
 	A1: this should be answered by this text.
+	For any other question the [http://groups.google.com/group/inferno-ds/ inferno-ds list], can be a good place to ask.
+
 {{{[2]}}}
 	thankfully Noah had a lot of things working,
 	the most important/used it's been the lcd to debug with print statements.
 
+REFS 
+  * http://code.google.com/p/inferno-os  *inferno-os project*
+
+  * http://code.google.com/p/inferno-ds  *inferno-ds project*
+  * http://code.google.com/p/inferno-ds/w/list  *inferno-ds wiki*
+  * http://groups.google.com/group/inferno-ds/  *inferno-ds group list*
 
 --
 salva
