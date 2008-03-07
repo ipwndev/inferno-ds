@@ -1,7 +1,7 @@
 #labels Featured
 #some interesting ideas/applications for gsoc projects.
 
-= Project =
+= Abstract =
 
 Working wifi lets all the styx stuff work which is really nice.
 
@@ -11,7 +11,7 @@ and surely there're lots of other interesting examples,
 
 we need wifi to do this, any takers?
 
-= Applications =
+= Motivation =
 
 Here, are a few ideas/examples that exploit the cool features of the DS and Inferno
 when they're brought togheter. 
@@ -52,7 +52,7 @@ set up a auth/cmd/styx server on the laptop, and on the DS do:
 
 _(your own uses/examples here)_
 
-= Implementation Details =
+= What to do =
 
 *Code*, i've been looking at the dslinux arm7/wifi.c code
 an it seems doable right now to get it working on the inferno-ds,
