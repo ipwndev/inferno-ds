@@ -1,5 +1,5 @@
+#summary just a couple of things/thoughts to tell/share about the DS port status.
 #labels Featured
-#just a couple of things/thoughts to tell/share about the DS port status.
 
 = DS port status =
 
