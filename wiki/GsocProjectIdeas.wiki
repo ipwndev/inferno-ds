@@ -49,9 +49,10 @@ set up a auth/cmd/styx server on the laptop, and on the DS do:
 	mount laptop /n/remote
 	stream /dev/audio /n/remote/audio
 	# then you've cross-conected both audio ends
-	# and what you get?
-	# [http://www.fotosearch.com/comp/IMP/IMP161/tin-telephone-~-INGPCYHE0013.jpg]
 }}}
+	and what you get?
+
+	http://www.fotosearch.com/comp/IMP/IMP161/tin-telephone-~-INGPCYHE0013.jpg
 
 == ... ==
 
