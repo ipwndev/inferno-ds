@@ -50,7 +50,7 @@ set up a auth/cmd/styx server on the laptop, and on the DS do:
 
 == ... ==
 
-_(your own uses/examples here)_
+_(your own uses/examples here using: voip, venti, ...)_
 
 = What to do =
 
