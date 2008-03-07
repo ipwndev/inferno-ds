@@ -1,6 +1,16 @@
 #labels Featured
 #some interesting ideas/applications for gsoc projects.
 
+= Project =
+
+Working wifi lets all the styx stuff work which is really nice.
+
+We have these apps in mind this examples,
+
+and surely there're lots of other interesting examples,
+
+we need wifi to do this, any takers?
+
 = Applications =
 
 Here, are a few ideas/examples that exploit the cool features of the DS and Inferno
@@ -61,13 +71,3 @@ by using wifime share the nds files over the wifi:
   * http://masscat.afraid.org/ninds/wifi_apps.php
   * (see the also the TechnicalBackground wiki page),
   the Nintendo DS Usb wifi dongle, can be used also the set an ap with the rt2500usb.
-
-= Project =
-
-Working wifi lets all the styx stuff work which is really nice.
-
-We have these apps in mind this examples,
-
-and surely there're lots of other interesting examples,
-
-we need wifi to do this, any takers?
