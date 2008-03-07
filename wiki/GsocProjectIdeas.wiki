@@ -3,18 +3,14 @@
 
 = Abstract =
 
-Working wifi lets all the styx stuff work which is really nice.
+One of the best aspects of the Nintendo DS is its wifi support. Since much of Inferno's novelty and power comes from using its Styx protocol over the network, working wifi on the Inferno DS port would be a killer app for the DS. Styx over wifi gives Inferno the ability to use other computing resources transparently from the DS. Users can access computational grids, devices like cameras and even other system's screens, mice and keyboards transparently from the DS. This has the potential to act as a "force multiplier", taking the DS's novel interface but relative lack of computing power and letting the DS take advantage of other more powerful resources.
 
-We have these apps in mind this examples,
-
-and surely there're lots of other interesting examples,
-
-we need wifi to do this, any takers?
+With this motivation in mind we are looking for a Google Summer of Code student to implement wifi support. 
 
 = Motivation =
 
 Here, are a few ideas/examples that exploit the cool features of the DS and Inferno
-when they're brought togheter. 
+when they're brought together. 
 
 Think of the following examples:
 
