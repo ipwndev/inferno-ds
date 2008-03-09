@@ -68,6 +68,7 @@ _(list some additional resources)_
   * http://groups.google.com/group/inferno-ds/  *group list*
 
   gsoc related:
+  * http://code.google.com/soc/ *Summer of Code*
   * http://groups.google.com/group/plan9-gsoc   *plan9-gsoc list*
   * http://plan9.bell-labs.com/wiki/plan9/GSoC2008   *plan9-gsoc wiki*
 
