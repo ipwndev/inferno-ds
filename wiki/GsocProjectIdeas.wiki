@@ -66,8 +66,8 @@ all the requirements it places is to get fifo ipc mechanism working.
 
 So the plan for a student project would be: 
 
-  # get arm7/fifos.c working
-  # get arm7/wifi.c working
+  # get [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/main.c arm7/fifos.c] working
+  # get [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c] working
   # integrate both (1) & (2): write a ethernds.c which calls arm7/wifi.c
 
 *Testing*, at the beginning the implementation can be tested with emus,
@@ -77,4 +77,4 @@ by using wifime share the nds files over the wifi:
   * http://masscat.afraid.org/ninds/rt2570.php
   * http://masscat.afraid.org/ninds/wifi_apps.php
   * (see the also the TechnicalBackground wiki page),
-  the Nintendo DS Usb wifi dongle, can be used also to set an ap with the rt2500usb.
+  the Nintendo DS Usb wifi dongle, can be used also to set an ap with the rt2570usb.
