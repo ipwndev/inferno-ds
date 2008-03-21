@@ -1,6 +1,0 @@
-#summary inferno-ds google group (mail list)
-#labels Featured
-
-= inferno-ds google group _(mail list)_ =
-
-http://groups.google.com/group/inferno-ds
