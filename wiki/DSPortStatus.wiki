@@ -1,4 +1,4 @@
-#summary just a couple of things/thoughts to tell/share about the DS port status.
+#summary the DS port status (Status, TODO, REFS, ...)
 #labels Featured
 
 = DS port status =
