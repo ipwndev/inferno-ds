@@ -1,4 +1,4 @@
-#summary some interesting ideas/applications for gsoc projects.
+#summary interesting ideas for gsoc projects.
 #labels Featured
 
 = Abstract =
