@@ -6,6 +6,11 @@
 This is a list of pages that contain background information regarding the DS Hardware
 
 = Details =
+
+The ARM Architecture Reference Manual, 2nd Edition By David Seal
+
+  * [http://www.google.es/search?q=The+ARM+Architecture+reference+Manual ARMARM]
+
 Arm instruction set cheat sheet
 
   * http://re-eject.gbadev.org/files/armref.pdf
