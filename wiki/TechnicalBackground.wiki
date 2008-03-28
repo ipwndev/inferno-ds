@@ -50,3 +50,6 @@ Wifi
   * [http://www.google.es/search?q=WiFiMe+RT2570+usb WiFiMe RT2570 usb]
     # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
     # http://masscat.afraid.org/ninds/wifi_apps.php
+
+expansion RAM lib
+  * http://forum.gbadev.org/viewtopic.php?t=13023
