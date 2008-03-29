@@ -9,7 +9,7 @@ This is a list of pages that contain background information regarding the DS Har
 
 The ARM Architecture Reference Manual, 2nd Edition By David Seal
 
-  * [http://www.google.es/search?q=The+ARM+Architecture+reference+Manual ARMARM]
+  * [http://www.google.es/search?q=The+ARM+Architecture+reference+Manual The ARMARM book]
 
 Arm instruction set cheat sheet
 
@@ -52,4 +52,7 @@ Wifi
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
 expansion RAM lib
+
   * http://forum.gbadev.org/viewtopic.php?t=13023
+
+  * http://www.pineight.com/ds/
