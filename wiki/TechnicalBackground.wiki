@@ -29,7 +29,7 @@ Basic register descriptions:
 
 Tutorial:
 
-  * http://www.double.co.nz/nintendo_ds/ _(useful hw programming tutorials)_ 
+  * http://www.double.co.nz/nintendo_ds/ _(*worth read, hw programming guides*)
 
   * http://www.dspassme.com/programmers_guide/tutorial/
 
@@ -40,13 +40,17 @@ Reference framebuffer implementation:
 Graphics reference:
 
   * http://www.tobw.net/dswiki/index.php?title=Graphic_modes
+
   * http://www.dev-scene.com/NDS/Tutorials_Day_2#Graphics_Overview
 
 Wifi
 
   * http://akkit.org/info/dswifi.htm
+
   * http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7 wifi using fifos for ipc
+
   * [http://www.gamefaqs.com/portable/ds/file/925329/40161 Nintendo DS Wireless Networking Guide] _(*worth read, also!*)_
+
   * [http://www.google.es/search?q=WiFiMe+RT2570+usb WiFiMe RT2570 usb]
     # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
     # http://masscat.afraid.org/ninds/wifi_apps.php
