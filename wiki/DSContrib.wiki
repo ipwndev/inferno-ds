@@ -1,4 +1,4 @@
-#summary ideas to consider when makiing changes/patches/contributions
+#summary ideas to consider when making changes/patches/contributions
 #labels Featured
 
 = Introduction =
