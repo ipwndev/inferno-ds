@@ -1,0 +1,24 @@
+#summary ideas to consider when makiing changes/patches/contributions
+#labels Featured
+
+= Introduction =
+
+There're a couple of resources around to ease development: svn, downloads, wiki and group list.
+
+The idea/purpose is to use them in a easy way to examine, follow and understand.
+
+= Rules =
+
+Here is the plan, when a important milestone is reached:
+
+  # [http://code.google.com/p/inferno-ds/source/list [svn]] commit changes to svn *[[NOTE]]*
+  # [http://groups.google.com/group/inferno-ds [group list]] write a post describing what's been done, like: Subject "inferno-ds usable on desmume (rev 67)"
+  # [http://code.google.com/p/inferno-ds/downloads/ [download]] upload a nds file to the downloads section, like filename: "isds_r67.nds".
+
+*[[NOTE]]*: remember to reference the svn revision number of the changes in the 2) & 3) steps, so the downloads, the group posts and the changes performed to the code can be tracked without confusion.
+
+= Examples =
+That's more or less what we've been doing lately, see:
+
+  * http://groups.google.com/group/inferno-ds/t/2053198167d994aa
+  * http://groups.google.com/group/inferno-ds/t/aa4a1d6fe7182270
