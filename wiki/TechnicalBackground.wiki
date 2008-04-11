@@ -15,6 +15,10 @@ Arm instruction set cheat sheet
 
   * http://re-eject.gbadev.org/files/armref.pdf
 
+ARM Procedure Call Standard: <[http://www.google.es/search?q=arm+c+procedure+call+standard+arm google]>
+
+  * http://www.chiark.greenend.org.uk/~theom/riscos/docs/CodeStds/APCS.txt
+
 Basic register descriptions:
 
   * http://nocash.emubase.de/gbatek.txt _(*a must read, don't skip it!*)_
