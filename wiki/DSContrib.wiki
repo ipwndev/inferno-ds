@@ -22,3 +22,17 @@ That's more or less what we've been doing lately, see:
 
   * http://groups.google.com/group/inferno-ds/t/2053198167d994aa
   * http://groups.google.com/group/inferno-ds/t/aa4a1d6fe7182270
+
+
+= emulators =
+
+- use of DS emus, i've used desmume, dsemu & no$gba (which Npe has encouraged me to use),
+NOTE that emus don't replace the hardware, but they make the first steps of adding new code
+and testing a bit faster, so keep in mind that the purpose is "to go for the real thing" (hardware),
+so of course wifi networking would be a big help.
+
+xxx this is in the wrong place.
+- related to the wifi, another thing that helps is wifime,
+so one doesn't have to copy the programs to the storage card and power up the ds
+and launch the nds images, just put the images in a directory and use wifime to made
+them reachable through wifi.

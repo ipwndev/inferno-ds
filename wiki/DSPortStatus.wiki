@@ -1,99 +1,26 @@
-#summary the DS port status (Status, TODO, REFS, ...)
+#summary the DS port status (status, todo's)
 #labels Featured
 
-= DS port status =
+= status =
 
-First, it's been a pair of months since i joined to the DS port [http://code.google.com/p/inferno-ds inferno-ds],
-the goal wasn't quite clear when i started, so it was mainly to figure what bits {{{[1]}}} were right/wrong {{{[2]}}}
-and try to "polish the sharp edges", in concrete terms this has meant:
-	
-	- get ints right on the arm7 side:
-	which controls most of the non-video related devices: (rtc, wifi, audio, touch screen, fifo, ...)
-	
-	- get ints right on the arm9 side, also:
-	which gives clockintr so progs are scheduled correctly, and the arm9 can catch 
-	undefined instructions related to fpi to emulate them.
-	
-	- modifying mkfiles a bit so one can develop DS code under the most common platforms:
-	Linux, Nt and MacOSX (which was the platform Npe originally started coding).
+inferno kernels can be booted.  buttons are working, the touch screen is working (although not optimally), both lcd screens work (though the upper one doesn't do anything useful).  dis programs can be run.
 
-At the moment of writting this i've made some small changes
-(based on the the latest code in the inferno-ds repo)
-that allow me to launch  the window manager ("wm/wm") and interact with it 
-by means of the touch screen and buttons, launching some programs from the menu, 
-and entering some text in the wm/sh to run commands.
+luckily, there is enough work to be done!  See below.
 
-= TODO =
+= todo =
 
-And now the next steps as i see them (most important things first):
-
-for me the most important thing atm is getting something to ease development/use
-this means: "reduce the code/build/burn/test time", things that can help here are:
-
-	- use of DS emus, i've used desmume, dsemu & no$gba (which Npe has encouraged me to use),
-	NOTE that emus don't replace the hardware, but they make the first steps of adding new code
-	and testing a bit faster, so keep in mind that the purpose is "to go for the real thing" (hardware),
-	so of course wifi networking would be a big help.
-	
-	- related to the wifi, another thing that helps is wifime,
-	so one doesn't have to copy the programs to the storage card and power up the ds
-	and launch the nds images, just put the images in a directory and use wifime to made
-	them reachable through wifi.
-
-	- while lacking of an runtime debugger, a thing that could help
-	and i think it shouldn't be hard is to get the debugkeys mechanism working,
-	and of course the use of debugging print()s.
-
-	- polishing more sharp edges as they appear. right now i can name a few:
-	memory protection, handling of fpi undefined exceptions, cache management ...
-	
-	- program arm9 devices; like sd/cf storage: devdldi.c,
-	improve video/lcd/screens using the hw capabilities of the DS.
-	
-	- program other arm7 devices (rtc, audio, fifos, ...)
-	
-	- comunicate both sides (arm7 & arm9) this is working at the moment with IPC:
-	but probably for dswifi (say ethernifi.c) a mechanism for fifo based communication
-	would be needed, so probably this could pop up to be on the top of the TODO list.
-
-= REFS = 
-_(list some additional resources)_
-
-  inferno-os related:
-  * http://code.google.com/p/inferno-os  *inferno-os*
-
-  inferno-ds related:
-  * http://code.google.com/p/inferno-ds  *project*
-  * http://code.google.com/p/inferno-ds/w/list  *wiki*
-  * http://groups.google.com/group/inferno-ds/  *group list*
-
-  gsoc related:
-  * http://code.google.com/soc/ *Summer of Code*
-  * http://groups.google.com/group/plan9-gsoc   *plan9-gsoc list*
-  * http://plan9.bell-labs.com/wiki/plan9/GSoC2008   *plan9-gsoc wiki*
-
-(to be continued ...)
-
-{{{[1]}}}
-	so before asking
-
-	Q1: what was wrong/right?, 
-	there was a previous question 
-
-	Q0: what comes with a DS?, and how it works?
-
-	A0: as i've been figuring the answer, i've updated the links in the inferno-ds  [http://code.google.com/p/inferno-ds/w/list wiki] 
-	in the hope that the ones coming after, could follow the tracks easily, so the wiki should help to answer those questions.
-
-	A1: this should be answered by this text.
-	
-	Ax: For any other question the http://groups.google.com/group/inferno-ds/ list,
-	can be a good place to ask.
-
-{{{[2]}}}
-	thankfully Noah had a lot of things working,
-	the most important/used it's been the lcd to debug with print statements.
+* make the arm7 (more) stable.  changing little bits of the code breaks it easily, related to interrupts.  thus interrupts need to be fixed on the arm7.
+* determine how best to use the two screens.
+* use fifo communication to communicate between the arm7 and the arm9.
+* write the framebuffer at the right time, so pixels don't get corrupted as they are now.
+* use the dldi interface to access the flash memory on the flashcard.  salva figured out it is currently broken due to differences in calling conventions between the dldi code and the inferno c compilers.
+* polishing more sharp edges:  memory protection, handling of fpi undefined exceptions, cache management, ...
+* rtc?
+* use the rom to put inferno data in.  currently we compile all files we need in the root device, which bloats the kernel and wastes ram.
 
 
---
-salva
+
+a few bigger things left to do:
+
+* sound (a simple test-sample can be played, however, we need an audio driver that serves an /dev/audio)
+* wifi
