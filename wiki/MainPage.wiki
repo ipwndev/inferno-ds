@@ -5,7 +5,7 @@
 
 Inferno-ds is a port of [http://www.vitanuova.com/inferno/ inferno] to the [http://en.wikipedia.org/wiki/Nintendo_DS nintendo ds].  This project is very much work in progress.  It was started as a google summer of code project in 2007.
 
-Currently, an inferno kernel can be booted, and simple dis programs can be run.  But there is a lot of work left to do!  See the DSPortStatus page for more details, and short- and long-term todo's.  See the DSContrib page for details on how to program and help out.
+Currently, an inferno kernel can be booted, and simple dis programs can be run.  But there is a lot of work left to do!  See the [DSPortStatus] page for more details, and short- and long-term todo's.  See the [DSContrib] page for details on how to program and help out.
 
 Code for inferno can be retrieved from [http://code.google.com/p/inferno-os/source/checkout inferno-os].
 
@@ -17,4 +17,4 @@ Updates are somtimes sent to the mailing list, or you can find changes in the sv
 
 = Programming the nds =
 
-Documentation on how to program the nintendo ds is gathered at TechnicalBackground.  It includes descriptions of the registers for the devices and tutorials (though usually geared towards game developers).
+Documentation on how to program the nintendo ds is gathered at [TechnicalBackground].  It includes descriptions of the registers for the devices and tutorials (though usually geared towards game developers).

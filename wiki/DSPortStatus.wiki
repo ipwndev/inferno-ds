@@ -9,18 +9,19 @@ luckily, there is enough work to be done!  See below.
 
 = todo =
 
-* make the arm7 (more) stable.  changing little bits of the code breaks it easily, related to interrupts.  thus interrupts need to be fixed on the arm7.
-* determine how best to use the two screens.
-* use fifo communication to communicate between the arm7 and the arm9.
-* write the framebuffer at the right time, so pixels don't get corrupted as they are now.
-* use the dldi interface to access the flash memory on the flashcard.  salva figured out it is currently broken due to differences in calling conventions between the dldi code and the inferno c compilers.
-* polishing more sharp edges:  memory protection, handling of fpi undefined exceptions, cache management, ...
-* rtc?
-* use the rom to put inferno data in.  currently we compile all files we need in the root device, which bloats the kernel and wastes ram.
+some short-term todo's:
 
+  * make the arm7 (more) stable.  changing little bits of the code breaks it easily, related to interrupts.  thus interrupts need to be fixed on the arm7.
+  * determine how best to use the two screens.
+  * use fifo communication to communicate between the arm7 and the arm9.
+  * write the framebuffer at the right time, so pixels don't get corrupted as they are now.
+  * use the dldi interface to access the flash memory on the flashcard.  salva figured out it is currently broken due to differences in calling conventions between the dldi code and the inferno c compilers.
+  * polishing more sharp edges:  memory protection, handling of fpi undefined exceptions, cache management, ...
+  * rtc?
+  * use the rom to put inferno data in.  currently we compile all files we need in the root device, which bloats the kernel and wastes ram.
 
 
 a few bigger things left to do:
 
-* sound (a simple test-sample can be played, however, we need an audio driver that serves an /dev/audio)
-* wifi
+  * sound (a simple test-sample can be played, however, we need an audio driver that serves an /dev/audio)
+  * wifi
