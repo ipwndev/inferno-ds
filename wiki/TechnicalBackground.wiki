@@ -64,3 +64,7 @@ expansion RAM lib
   * http://forum.gbadev.org/viewtopic.php?t=13023
 
   * http://www.pineight.com/ds/
+
+Bit Twiddling Hacks
+
+  * http://graphics.stanford.edu/~seander/bithacks.html
