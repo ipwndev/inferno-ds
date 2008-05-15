@@ -66,9 +66,9 @@ all the requirements it places is to get fifo ipc mechanism working.
 
 So the plan for a student project would be: 
 
-  # (the fifo is now somewhat working, check the mailing list and the source code)
-  # get [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c] working
-  # integrate both (1) & (2): write a ethernds.c which calls arm7/wifi.c
+  # get fifo ipc working: *done* _(check the mailing list and the source code)_
+  # get [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c] working: *wip*
+  # integrate both (1) & (2): write a ethernds.c ([http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/net/wireless/nds.c nds.c]) which accesses [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c]
 
 *Testing*, at the beginning the implementation can be tested with emus,
 and at the same time directly on the hardware,
