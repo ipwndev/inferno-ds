@@ -23,6 +23,12 @@ That's more or less what we've been doing lately, see:
   * http://groups.google.com/group/inferno-ds/t/2053198167d994aa
   * http://groups.google.com/group/inferno-ds/t/aa4a1d6fe7182270
 
+= BUG reports =
+
+Before submitting a bug report take a look at:
+``[http://www.chiark.greenend.org.uk/~sgtatham/bugs.html How to Report Bugs Effectively]''
+if you're short of time read the '*Summary*' at the bottom of the document.
+
 
 = emulators =
 
