@@ -61,6 +61,9 @@ Wifi
     # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
+Debugging
+  * http://forum.gbadev.org/viewtopic.php?t=10332
+
 expansion RAM lib
 
   * http://forum.gbadev.org/viewtopic.php?t=13023
