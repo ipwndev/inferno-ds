@@ -62,6 +62,11 @@ Wifi
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
 Debugging
+  * from [http://en.wikipedia.org/wiki/Debugging]
+  _``The most effective debugging tool is still careful thought, coupled with judiciously placed print statements''_. 
+
+  Brian Kernighan, "Unix for Beginners" (1979) 
+
   * http://forum.gbadev.org/viewtopic.php?t=10332
 
 expansion RAM lib
