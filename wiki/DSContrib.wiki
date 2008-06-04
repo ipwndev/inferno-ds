@@ -29,16 +29,24 @@ Before submitting a bug report take a look at:
 ``[http://www.chiark.greenend.org.uk/~sgtatham/bugs.html How to Report Bugs Effectively]''
 if you're short of time read the '*Summary*' at the bottom of the document.
 
-
 = emulators =
 
-- use of DS emus, i've used desmume, dsemu & no$gba (which Npe has encouraged me to use),
-NOTE that emus don't replace the hardware, but they make the first steps of adding new code
-and testing a bit faster, so keep in mind that the purpose is "to go for the real thing" (hardware),
-so of course wifi networking would be a big help.
+use of DS emus: desmume & no$gba (which Npe has encouraged me to use).
 
-xxx this is in the wrong place.
-- related to the wifi, another thing that helps is wifime,
-so one doesn't have to copy the programs to the storage card and power up the ds
+NOTE that emus don't replace the hardware, but they make the first steps of adding new code and testing a bit faster, so keep in mind that the purpose is "to go for the real thing" (hardware).
+
+Wifi networking also helps to decrease the code/compile/test cycle time.
+
+As one doesn't have to copy the programs to the storage card and power up the ds
 and launch the nds images, just put the images in a directory and use wifime to made
 them reachable through wifi.
+
+= git-svn =
+
+*Command-Line Access* 
+
+`git svn clone --username user -s https://inferno-ds.googlecode.com/svn ds` _(members)_
+
+`git svn clone -s  http://inferno-ds.googlecode.com/svn ds-read-only` _(non members)_
+
+more info: [http://google-opensource.blogspot.com/2008/05/develop-with-git-on-google-code-project.html Develop with Git on a Google Code Project]
