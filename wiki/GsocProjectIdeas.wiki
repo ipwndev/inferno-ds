@@ -54,6 +54,11 @@ set up a auth/cmd/styx server on the laptop, and on the DS do:
 
 	http://www.fotosearch.com/comp/IMP/IMP161/tin-telephone-~-INGPCYHE0013.jpg
 
+== Touch/Input based text entry ==
+Write an app to implement a method similar to [http://www.strout.net/info/ideas/hexinput.html HexInput] for text entry as an alternative to [http://www.vitanuova.com/inferno/man/1/keyboard.html wm/keyboard(1)].
+
+[http://www.strout.net/info/ideas/QUONG.jpg]
+
 == ... ==
 
 _(your own uses/examples here using: venti, midi ...)_
