@@ -66,14 +66,14 @@ _(your own uses/examples here using: venti, midi ...)_
 = What to do =
 
 *Code*, i've been looking at the 
-[http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/ dslinux] arm7/wifi.c code and it seems doable right now to get wifi working on the inferno-ds,
-all the requirements it places is to get fifo ipc mechanism working.
+[http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/ dslinux] arm7/wifi.c code and it seems doable right now to get wifi working on the inferno-ds.
 
 So the plan for a student project would be: 
 
-  # get fifo ipc working: *done* _(check the mailing list and the source code)_
-  # get [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c] working: *wip*
-  # integrate both (1) & (2): write a ethernds.c ([http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/net/wireless/nds.c nds.c]) which accesses [http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/wifi.c arm7/wifi.c]
+  # get fifo ipc working: *done*
+  # get [http://code.google.com/p/inferno-ds/source/browse/trunk/arm7/wifi.c arm7/wifi.c] working: *done*
+  # write a ([http://code.google.com/p/inferno-ds/source/browse/trunk/ethernds.c ethernds.c]) to interface [http://code.google.com/p/inferno-ds/source/browse/trunk/arm7/wifi.c arm7/wifi.c]: *wip* _(in short: (3) = (1) + (2))_
+
 
 *Testing*, at the beginning the implementation can be tested with emus,
 and at the same time directly on the hardware,
