@@ -61,6 +61,8 @@ Wifi
     # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
+  * http://www.tobw.net/dswiki/index.php?title=How_to_run_code
+
 Debugging
   * from [http://en.wikipedia.org/wiki/Debugging]
   _``The most effective debugging tool is still careful thought, coupled with judiciously placed print statements''_. 
