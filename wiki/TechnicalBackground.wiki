@@ -49,7 +49,7 @@ Graphics reference:
 
   * http://www.dev-scene.com/NDS/Tutorials_Day_2#Graphics_Overview
 
-Wifi
+Wifi [http://www.google.es/search?q=RF2958+chip RF2958]
 
   * http://akkit.org/info/dswifi.htm
 
