@@ -37,6 +37,8 @@ Tutorial:
 
   * http://www.dspassme.com/programmers_guide/tutorial/
 
+  * http://www.tobw.net/dswiki/index.php?title=How_to_run_code
+
 Reference framebuffer implementation:
 
   * http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/drivers/video/ndsfb.c
@@ -61,7 +63,7 @@ Wifi
     # http://simon.teunvandeberg.nl/nifi/rt2570/howto_choose.html
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
-  * http://www.tobw.net/dswiki/index.php?title=How_to_run_code
+  * http://91.184.39.23/svn/wsvn/liblobby/ _(ds-to-ds communication)_
 
 Debugging
   * from [http://en.wikipedia.org/wiki/Debugging]
