@@ -3,26 +3,23 @@
 
 = status =
 
-inferno kernels can be booted.  buttons are working, the touch screen is working (although not optimally), both lcd screens work (though the upper one doesn't do anything useful).  dis programs can be run.
+inferno kernels can be booted.  buttons are working, the touch screen is working, both lcd screens work (though the upper one doesn't do anything useful).  dis programs can be run.
 
 luckily, there is enough work to be done!
 
-See below & [GsocProjectIdeas] for what needs to be done.
+See below & [GsocProjectIdeas] for some of the port goals,
+also take a peek at [TechnicalBackground] and compare it with the code.
 
-= todo =
+= todo _(a lot)_=
 
 some short-term todo's:
 
   * determine how best to use the two screens.
-  * use fifo communication to communicate between the arm7 and the arm9.
-  * write the framebuffer at the right time, so pixels don't get corrupted as they are now.
-  * Currently we add all files we need in the root device, which bloats the kernel and wastes ram.
- The most common/generic storage access is: DLDI interface to access the flash memory on the flashcard. Currently unstable due to differences in ACPCS calling conventions (see  [TechnicalBackground]) between the DLDI code and ken-cc compiler.
+  * properly update framebuffer, to remove pixel corruption.
+  * polish more sharp edges:  memory protection, cache management (jit) ...
 
-  * polishing more sharp edges:  memory protection, cache management (jit) ...
-  * fix rtc on the arm7 to be accessible on the arm9 (fifos)
-
-a few bigger things left to do:
-
-  * sound (a simple test-sample can be played, however, we need an audio driver that serves an /dev/audio)
-  * wifi (work in progress)
+a few bigger things left to do (work in progress):
+  
+  * storage: using devroot (consumes precious ram) instead use sd card (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devdldi.c devdldi.c])
+  * wifi: ap scan, stats and tx working (see [http://code.google.com/p/inferno-ds/source/browse/trunk/ethernds.c ethernds.c])
+  * sound: can play .iaf with pcm encoded files (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devaudio.c devaudio.c])
