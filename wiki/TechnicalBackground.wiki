@@ -3,9 +3,12 @@
 
 = Introduction =
 
-This is a list of pages that contain background information regarding the DS Hardware
+Pointer with information regarding the DS Hardware and Inferno/Plan9.
 
-= Details =
+== Inferno/Plan9 == 
+  * [http://books.google.es/books?id=--kKfMcP2-IC 9notes]: _``Notes on the Plan 9(tm) 3rd edition Kernel''_ per Francisco J. Ballesteros (more [http://lsub.org/who/nemo/papers.html nemo´s stuff]).
+
+== DS Hardware ==
 
 The ARM Architecture Reference Manual, 2nd Edition By David Seal
 
