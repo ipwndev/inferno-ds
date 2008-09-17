@@ -76,7 +76,9 @@ Debugging
 
   * http://forum.gbadev.org/viewtopic.php?t=10332
 
-expansion RAM lib
+Memory expansions
+
+  * http://en.wikipedia.org/wiki/DSLinux#Memory_limitations  _(DSLinux gcc modifications)_
 
   * http://forum.gbadev.org/viewtopic.php?t=13023
 
