@@ -78,7 +78,7 @@ Debugging
 
 Memory expansions
 
-  * http://en.wikipedia.org/wiki/DSLinux#Memory_limitations  _(DSLinux gcc modifications)_
+  * http://en.wikipedia.org/wiki/DSLinux#Memory_limitations  _[http://dslinux.gits.kiev.ua/trunk/toolchain/8bit/ (8bit patches)]_ _(DSLinux gcc modifications)_
 
   * http://forum.gbadev.org/viewtopic.php?t=13023
 
