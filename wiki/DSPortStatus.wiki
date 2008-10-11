@@ -3,23 +3,24 @@
 
 = status =
 
-inferno kernels can be booted.  buttons are working, the touch screen is working, both lcd screens work (though the upper one doesn't do anything useful).  dis programs can be run.
+Inferno kernels can be [http://code.google.com/p/inferno-ds/downloads/list downloaded] and booted. 
+
+The working devices that are used by limbo programs are:
+  * input: buttons and touch screen
+  * lcd screens: lower and upper (see [http://code.google.com/p/inferno-ds/source/browse/trunk/screen.c screen.c])
+  * sound: play .iaf with pcm encoded files (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devaudio.c devaudio.c])
+  * storage: use devroot (consumes precious ram) or instead use sd card (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devdldi.c devdldi.c])
 
 luckily, there is enough work to be done!
 
 See below & [GsocProjectIdeas] for some of the port goals,
-also take a peek at [TechnicalBackground] and compare it with the code.
+also take a peek at [TechnicalBackground] to see the what the hardware provides.
 
-= todo _(a lot)_=
+= todo =
 
-some short-term todo's:
-
-  * determine how best to use the two screens.
-  * properly update framebuffer, to remove pixel corruption.
-  * polish more sharp edges:  memory protection, cache management (jit) ...
-
-a few bigger things left to do (work in progress):
+some short-term todo's (work in progress):
   
-  * storage: using devroot (consumes precious ram) instead use sd card (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devdldi.c devdldi.c])
-  * wifi: ap scan, stats and tx working (see [http://code.google.com/p/inferno-ds/source/browse/trunk/ethernds.c ethernds.c])
-  * sound: can play .iaf with pcm encoded files (see [http://code.google.com/p/inferno-ds/source/browse/trunk/devaudio.c devaudio.c])
+  # wifi: ap scan, stats and tx working (see [http://code.google.com/p/inferno-ds/source/browse/trunk/ethernds.c ethernds.c])
+  # properly update the screen, to remove pixel corruption.
+  # alternatives to access both screens with the existing input.
+  # polish more sharp edges:  memory protection, cache management (jit) ...
