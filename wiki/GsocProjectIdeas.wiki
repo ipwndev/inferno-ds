@@ -55,9 +55,17 @@ set up a auth/cmd/styx server on the laptop, and on the DS do:
 	http://www.fotosearch.com/comp/IMP/IMP161/tin-telephone-~-INGPCYHE0013.jpg
 
 == Touch/Input based text entry ==
-Write an app to implement a method similar to [http://www.strout.net/info/ideas/hexinput.html HexInput] for text entry as an alternative to [http://www.vitanuova.com/inferno/man/1/keyboard.html wm/keyboard(1)].
+See Caerwyn's quong [http://code.google.com/p/inferno-lab/source/detail?r=70 code]
+to implement a method similar to
+[http://www.strout.net/info/ideas/hexinput.html HexInput]
+for text entry.
 
-[http://www.strout.net/info/ideas/QUONG.jpg]
+This can be used as an alternative to
+[http://www.vitanuova.com/inferno/man/1/keyboard.html wm/keyboard(1)].
+
+[http://farm4.static.flickr.com/3125/2681867639_b4efa8a151_o_d.png]
+
+source: [http://www.flickr.com/photos/caerwyn/2681867639/]
 
 == ... ==
 
@@ -65,8 +73,8 @@ _(your own uses/examples here using: venti, midi ...)_
 
 = What to do =
 
-*Code*, i've been looking at the 
-[http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/ dslinux] arm7/wifi.c code and it seems doable right now to get wifi working on the inferno-ds.
+*Code*: see
+[http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7/ dslinux] arm7/wifi.c code and addapt it to have wifi working on the inferno-ds.
 
 So the plan for a student project would be: 
 
