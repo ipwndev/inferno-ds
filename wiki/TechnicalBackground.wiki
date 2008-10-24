@@ -67,6 +67,7 @@ Wifi [http://www.google.es/search?q=RF2958+chip RF2958]
     # http://masscat.afraid.org/ninds/wifi_apps.php
 
   * http://91.184.39.23/svn/wsvn/liblobby/ _(ds-to-ds communication)_
+   `svn co svn://91.184.39.23/svn/repos/libwifi`
 
 Debugging
   * from [http://en.wikipedia.org/wiki/Debugging]
