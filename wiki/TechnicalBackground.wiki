@@ -56,9 +56,7 @@ Wifi [http://www.google.es/search?q=RF2958+chip RF2958]
 
   * http://akkit.org/info/dswifi.htm
 
-  * http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/arch/arm/mach-nds/arm7 wifi using fifos for ipc
-
-  * http://dslinux.gits.kiev.ua/trunk/linux-2.6.x/include/asm-arm/arch-nds/ wifi.h & fifo.h headers
+  * http://tobw.net/dswiki/index.php?title=Set_up_WMB_for_Linux
 
   * [http://www.gamefaqs.com/portable/ds/file/925329/40161 Nintendo DS Wireless Networking Guide] _(*worth read, also!*)_
 
