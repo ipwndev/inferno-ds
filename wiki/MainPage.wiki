@@ -13,7 +13,9 @@ Code for inferno can be retrieved from [http://code.google.com/p/inferno-os/sour
 
 The mailing list at [http://groups.google.com/group/inferno-ds inferno ds mailing list] is used for project communication.  You might also find a few programmers on #inferno on irc.freenode.net.
 
-Updates are somtimes sent to the mailing list, or you can find changes in the svn change log.  New test kernels and patches are sometimes uploaded to the download page.
+Updates are sometimes sent to the mailing list, or you can find changes in the svn change log.  New test kernels and patches are sometimes uploaded to the download page.
+
+For each commit, a mail is sent out to the [http://groups.google.com/group/inferno-ds-changes inferno-ds-changes mailing list] (a read-only mailing list, so spamless).
 
 = Programming the nds =
 
